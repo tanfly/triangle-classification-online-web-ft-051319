@@ -2,7 +2,7 @@ class Triangle
   
   attr_accessor :equilateral, :isoceles, :scalene, :one, :two, :three 
   
-  def initialize(equilateral, isoceles, scalene)
+  def initialize(one, two, three)
     @equilateral = equilateral
     @isoceles = isoceles 
     @scalene = scalene
