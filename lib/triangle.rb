@@ -10,7 +10,11 @@ class Triangle
   
   def kind
     
-    if
+    if :one == 0 || :two == 0 || :three = 0
+    raise TriangleError 
+    
+    elsif 
+    
     
   end
   
