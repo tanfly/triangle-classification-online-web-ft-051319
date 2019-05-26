@@ -13,7 +13,10 @@ class Triangle
     if :one == 0 || :two == 0 || :three = 0
     raise TriangleError 
     
-    elsif 
+    elsif (:one + :two <= :three) || (:one + :three <= :two) || (:two + :three <= :one) 
+    raise TriangleError 
+    
+    elsif
     
     
   end
