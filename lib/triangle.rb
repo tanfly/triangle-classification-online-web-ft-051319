@@ -17,7 +17,7 @@ class Triangle
     raise TriangleError 
     
   else 
-    if (:one == :two) && (:one == :three)
+    if (:one == :two) & (:one == :three)
       :equilateral 
       
       elsif (:one == :two) && (:one != :three) && (:two != :three) || (:two == :three) && (:two != :one) && (:three != :one) || (:one == :three)
