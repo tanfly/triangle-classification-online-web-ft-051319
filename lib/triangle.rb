@@ -7,4 +7,9 @@ class Triangle
     @isoceles = isoceles 
     @scalene = scalene
   end 
+  
+  def kind 
+    
+  end
+    
 end
