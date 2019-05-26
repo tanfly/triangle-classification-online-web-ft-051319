@@ -23,7 +23,7 @@ class Triangle
       elsif ((one == two) && (one != three) && (two != three)) || ((two == three) && (two != one) && (three != one)) || ((one == three))
       :isoceles 
       
-    else (one != two) || (two != three) || (three != one)
+    else ((one != two) || (two != three) || (three != one))
       :scalene 
     end 
   end 
