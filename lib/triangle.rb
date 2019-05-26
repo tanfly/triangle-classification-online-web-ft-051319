@@ -16,7 +16,7 @@ class Triangle
     elsif (:one + :two <= :three) || (:one + :three <= :two) || (:two + :three <= :one) 
     raise TriangleError 
     
-    elsif
+  else
     
     
   end
