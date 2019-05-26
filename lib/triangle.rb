@@ -8,7 +8,9 @@ class Triangle
     @scalene = scalene
   end 
   
-  def kind 
+  def kind
+    
+    if
     
   end
   
