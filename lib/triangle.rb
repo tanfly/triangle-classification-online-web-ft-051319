@@ -10,10 +10,10 @@ class Triangle
   
   def kind
     
-    if (:one == 0 || :two == 0 || :three == 0)
+    if (one == 0 || two == 0 || three == 0)
     raise TriangleError 
     
-    elsif (:one + :two <= :three) || (:one + :three <= :two) || (:two + :three <= :one) 
+    elsif (one + two <= three) || (one + three <= two) || (two + three <= one) 
     raise TriangleError 
     
   else 
