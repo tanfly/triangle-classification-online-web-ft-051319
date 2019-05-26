@@ -24,6 +24,10 @@ class Triangle
       :isoceles 
       
     else (:one != :two) || (:two != :three) || (:three != :one)
+      :scalene 
+    end 
+  end 
+end
     
     
   end
