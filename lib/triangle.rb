@@ -3,9 +3,9 @@ class Triangle
   attr_accessor :equilateral, :isoceles, :scalene, :one, :two, :three 
   
   def initialize(one, two, three)
-    @equilateral = equilateral
-    @isoceles = isoceles 
-    @scalene = scalene
+    @one = one
+    @two = two 
+    @three = three
   end 
   
   def kind
